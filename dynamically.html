@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <form name="myForm">
+            Flowers:<input type="radio" id="Flowers" name="dynamically" onclick="handleFlowers()">
+            Fruits:<input type="radio" id="Fruits" name="dynamically" onclick="handleFruits()">
+           
+            <h1 id="show"> </h1>   
+    </form>
+    <script>
+        function handleFlowers(){
+            document.getElementById("show").innerHTML=`
+            <select id="Flowers">
+                <option value="lily">lily</option>
+                <option value="sunflower">sunflower</option>        
+                </select>`
+                }
+
+                function handleFruits(){
+            document.getElementById("show").innerHTML=` 
+            <select id="Fruits">
+                <option value="Mango">Mango</option>
+                <option value="Orange">Orange</option>        
+                </select>`
+        }
+    
+</script>
+</html>

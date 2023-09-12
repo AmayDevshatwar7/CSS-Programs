@@ -1,0 +1,23 @@
+<!-- Enter your name in text box and then onclick on text field display welcome message -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Problem_2</title>
+</head>
+<body>
+    <form name="myForm">
+        Name:<input type="text" id="w1" placeholder="Enter your name" >
+        Message:<input type="text" id="w2" onclick="message()">
+        
+
+    </form>
+    <script>
+        function message(){
+            var a=document.getElementById("w1").value;
+            document.getElementById("w2").value="welcome"+" "+a;
+        }
+    </script>
+</body>
+</html>

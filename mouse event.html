@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> id="hello"</p>
+    <input type="button" onmousedown="display()" onmouseover="mouseover()" onmousemove="mousemove()" onmouseout="mouseout()" onmouseup="demo()">
+    </button>
+</body>
+<script>
+
+    function demo(){
+        document.getElementById("hello").style.color="red";
+    }
+    function display(){
+        doxument.getElementById("hello").style.color="black";
+
+    }
+    function fun (){
+        document.getElementById("hello").style.color="blue";
+
+    }
+    function mousemove(){
+        document.getElementById("hello").style.fontSize="5px";
+
+    }
+    function mouseover(){
+        alert("mouseover function");
+    }
+    function mouseout(){
+        alert("mouseout function");
+    }
+</script>
+</html>

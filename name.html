@@ -1,0 +1,32 @@
+z<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="f1">
+        First name <input type="text" id="firstrname">
+        Second name<input type="text" id="middlename">
+        Last name<input type="text" id="lastname">
+        <h1> Full Name Is </h1>
+
+    </form>
+    <button id="r" onclick="doThis()">Click</button>
+    <p id="result"></p>
+    <script>
+        function doThis() {
+            var a = document.getElementById("firstrname").value;
+            var b = document.getElementById("middlename").value;
+            var c = document.getElementById("lastname").value;
+            var result = document.getElementById("result");
+            result.innerHTML = a + " " + b + " " + c;
+        }
+     
+    </script>
+</body>
+
+</html>

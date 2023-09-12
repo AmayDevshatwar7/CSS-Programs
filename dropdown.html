@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select onchange="urlopen(this.value)">
+    <option>select item</option>
+    <option value="https://www.msbte.org.in">msbte</option>
+    <option value="https://www.google.com">google</option>
+    </select>
+    <script>
+        function urlopen(elem){
+            if(elem){
+                window.open(elem)
+            }
+
+        }
+    </script>
+</body>
+
+
+</html>

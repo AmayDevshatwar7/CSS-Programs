@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>evaluation of chekbox</title>
+</head>
+<body>
+    <form  id="myform">
+    css <input type="checkbox" name="cheakbox" id="ch1"  >
+    java: <input type="checkbox" name="cheakbox1" id="ch2">
+
+    </form>
+    <button onclick="clicke()">click here</button>
+
+    <script>
+
+        function clicke(){
+
+   var form = document.getElementById("myform");
+   if(form.ch1.checked==true){
+    alert("you have selected css");
+   }
+   if(form.ch2.checked==true){
+    alert("you have selected java");
+   }
+
+        }
+    </script>
+
+</body>
+</html>

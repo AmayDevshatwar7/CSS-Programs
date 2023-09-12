@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myform">
+    css:<input type="checkbox" name="cb11"  id="c1 " ><br>
+    java:<input type="checkbox" name="cb11"  id="c2"><br>
+    c++:<input type="checkbox" name="cb11"  id="c3">  <br>
+  </form>
+    
+    <button onclick="fun()">click here</button>
+
+ <script>
+    function fun(){
+        var form = document.getElementById("myform");
+        {
+            if(form.c1.checked==true)
+            {
+                alert("you have select");
+            }
+            if(form.c2.checked==true)
+            {
+                alert("you have select");
+            }
+            if(form.c3.checked==true)
+            {
+                alert("you have select");
+            }
+        }
+    }
+ </script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" value="Amay" id="inbox" onfocus="uppercase()" 
+    onblur="Lowercase()">
+
+</body>
+<script>
+    function uppercase(){
+        var a = document.getElementById("inbox");
+        a.value=a.value.touppercase();
+
+    }
+    function Lowercase(){
+        var b = document.getElementById("inbox");
+        b.value=b.value.toLowercase();
+
+    }
+</script>
+</html>
