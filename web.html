@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vaibhav</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+    
+    
+
+        
+</head>
+<body>
+    <form id="form">
+       <div> clas
+        name:
+       <input type="text"name="userid" id="name"><br>
+        password:
+       <input type="password"name="psw" id="password"><br>
+       <input type="submit"value="submit"><br>
+       <!-- <input type="reset"><br>
+       <input type="radio"name="gender"value="male"checked><br>
+       <input type="radio"name="gender"value="female"><br>
+       <input type="radio"name="gender"value="other"><br>
+       <input type="checkbox"name="vehical1"value="bike">I have a bike<br>
+       <input type="checkbox"name="vehical2"value="car">I have a car<br>
+
+    </div> -->
+   </form>
+   <script>
+    var form=document.getElementById ("form")
+
+    form.addEventListener('submit',function(even){
+        event.preventDefault()
+        {
+            var name=document.getElementById("name").value
+            console.log(name)
+            var password=document.getElementById("password").value
+            console.log(password)
+        }
+        
+        
+    })
+</script>
+</body>
+</html>
